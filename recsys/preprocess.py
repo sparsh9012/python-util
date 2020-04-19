@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
-from reco.evaluate import user_item_crossjoin, filter_by
+from evaluate import user_item_crossjoin, filter_by
 
 
 def encode_user_item(df, user_col, item_col, rating_col, time_col):
